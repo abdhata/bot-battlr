@@ -33,7 +33,7 @@ function BotCollection({ setSelectedBot }) {
   return (
     <div>
       <div className='title'>
-        <h1>Here is your BotCollection</h1>
+        <h1>My Bot Army!</h1>
       </div>
       {rows.map((row, i) => (
         <div key={i} className="row">
